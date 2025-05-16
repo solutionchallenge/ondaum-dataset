@@ -10,6 +10,7 @@ The original dataset is sourced from [AI Hub's Emotional Dialogue Dataset](https
 
 - `dataset/`: Original and processed dataset files
   - `finetune_dataset.jsonl`: Processed dataset for model fine-tuning
+  - `reclassified_dataset.jsonl`: Processed dataset for text-embedding
 - `emotion_dataset_to_text_embedding.py`: Script to convert the original dataset into text embedding format
 - `text_embedding_to_fine_tuning.py`: Script to convert text embedding data into fine-tuning format
 - `create_tuned_model.py`: Script to create and run model fine-tuning
